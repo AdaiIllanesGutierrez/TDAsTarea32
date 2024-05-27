@@ -32,7 +32,8 @@ x 1 2
 6 7 8 
 
  ```
-2) BusquedaEnAnchura(bfs): funciona de manera indicada, ya que esta nos ayuda para encontrar el camino mas corto para poder llegar al final, asi como dice el nombre ir explorando todos los casos de mismo profundidad para asi luego ir avanzando.
+2) BusquedaEnAnchura(bfs): funciona de manera indicada, ya que esta nos ayuda para encontrar el camino mas corto para poder llegar al final, consume a su vez mas memoria que la dfs.
+
 ejemplo:
 ```
 Ingrese su opción: 2
