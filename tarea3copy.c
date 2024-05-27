@@ -143,7 +143,10 @@ void dfs(State* initial_state, int max_depth) {
         while (list_size(stack) > 0) {
             State* state = list_popBack(stack);
             iterations++;
-            imprimirEstado(state);
+            //el imprimir estados lo dejamos comentado ya que al tener muchas iteraciones muestra todas 
+            //y eso hace que tarde el programa imprimiento para probar se puede usar la matriz pequeña 
+            //y descomentar el imprimir 
+            //imprimirEstado(state);
             if (is_final_state(state)) {
                 printf("Solución encontrada en %d iteraciones\n", iterations);
                 void* node = list_first(state->actions);

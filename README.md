@@ -70,10 +70,10 @@ Solución encontrada en 30 iteraciones
 
 # Ejemplos de uso:
 ```
-Estado inicial del puzzle: (x seria la casilla vacia).
-x 2 8
-1 3 4
-6 5 7 
+Estado inicial del puzzle: (0 seria la casilla vacia, que despues se muestra como x).
+3 1 2 
+0 4 5 
+6 7 8 
 
 
 ***** MENÚ ******
@@ -161,8 +161,17 @@ Solución encontrada en 2 iteraciones
 En esta parte ambos realizamos el codigo y contribuimos en el desarrollo
 
 ### Marcel Gutierrez 
+- ayudo y creo una la funcion de busqueda en anchura(bfs) la cual era primitiva a la que al final termino siendo usada.
+- ayudo tambien en las ideas y en la implementacion de la Busqueda mejor primero.
+- Documentacion del README.
+- **Auto-evaluacion** 2(Aporte bueno).
 
 
 ### Adai Illanes 
 
+- Implemento la funcion de Busqueda En Profundidad(dfs)
+- Implemento la funcion de Búsqueda en Anchura(bfs)
+- implemento la Búsqueda Mejor Primero
+- Documentación y comentarios en el código.
+- **Auto-evaluación**: 3 (Aporte excelente).
 
